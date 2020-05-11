@@ -2,7 +2,7 @@ private int nId;
 private String nCreationDate;
 private String nName;
 private String nLearning;
-private String int nLevel;
+private int nLevel;
 
 Softskill public ( @nullable String name,String Learning , int level, String CreationDate ) 
 {

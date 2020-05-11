@@ -1,0 +1,54 @@
+private int nId;
+private String nCreationDate;
+private String nName;
+private String nLearning;
+private String int nLevel;
+
+Softskill public ( @nullable String name,String Learning , int level, String CreationDate ) 
+{
+nName = nome;
+nLearning = situação;
+nlevel = nivel;
+CreationDate = CreationDate;
+}
+
+@PrimaryKey ( autoGenerate = true ) 
+@notnull
+@ColumnInfo ( name ="SoftskillId" )
+private int nId;
+@nullable
+@ColumnInfo ( name = "nName" )
+private String nName;
+
+public int getId () {
+   return nId;
+}
+public void setId ( int id ) {
+    nId = id;
+}
+public String getName () {
+return nName;
+}
+public void setName ( nome da String ) {
+nName = nome;
+}
+public String getLearning () {
+return nLearning;
+}
+public void setLearning ( Situação da String ) {
+nLearning = situação;
+}
+public int getLevel () {
+retornar nlevel;
+}
+public vazio setLevel ( int level ) {
+nLevel = nivel;
+}
+public String getCreationDate () {
+return nCreationDate;
+}
+public void setCreationDate ( String CreationDate ) {
+nCreationDate = nCreationDate;
+}
+private int nLevel;
+private String nCreationDate;
